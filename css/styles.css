@@ -15,66 +15,118 @@ ol {
 
 button {
   cursor: pointer;
-  background-color: #4d5ae5;
-  color: #ffffff;
 }
 
-button:hover,
-button:focus {
-  background-color: #404bbf;
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-a:hover,
-a:focus {
+.logo-part {
+  color: #2e2f42;
+}
+
+.footer-logo-part {
+  color: #f4f4fd;
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
-h1 {
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
-  font-weight: 700;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
-h2 {
+.hero-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.section-title {
   font-size: 36px;
   line-height: 1.11;
-  font-weight: 700;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-h3 {
+.features-subtitle,
+.team-name,
+.portfolio-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-p {
-  font-size: 16px;
+.features-text,
+.team-position,
+.portfolio-text,
+.footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-header a {
-  color: #2e2f42;
+.team-section {
+  background-color: #f4f4fd;
 }
 
-section:first-child {
+.team-item {
+  background-color: #ffffff;
+}
+
+.page-footer {
   background-color: #2e2f42;
 }
 
-footer {
-  background-color: #2e2f42;
-}
-
-footer p {
+.footer-text {
   color: #f4f4fd;
-}
-
-footer a {
-  color: #4d5ae5;
 }
